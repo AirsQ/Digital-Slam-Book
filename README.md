@@ -1,9 +1,27 @@
-# Digital Slam Book 💌
+# 📝 Online Slam Book
 
-This is a digital slam book built using only HTML, CSS, and JavaScript — no backend, no database.
+A simple and fun digital slam book made using **HTML, CSS, and JavaScript**. This project lets users answer questions and save their responses in the browser using **localStorage** — no backend needed!
 
-- Messages are saved locally in your browser (localStorage)
-- You can write messages, read others, and delete your own
-- Fully responsive with user-friendly designs and effects
+## ✨ Features
 
-✨ Made for nostalgia and sharing love in a digital age!
+- Beautiful and animated design
+- Easy-to-use interface
+- Data saved in the browser
+- Made with pure HTML, CSS & JS
+
+## 📸 Preview
+
+*(Add a screenshot here like `preview.png`)*
+
+## 🔧 Technologies
+
+- HTML
+- CSS
+- JavaScript
+
+## ⚠️ Note
+
+- This is a personal project made for demonstration, learning, and fun.
+- Responses are saved only on the user’s device (via localStorage).
+- To collect answers from others, you’d need a backend (like Firebase or Supabase).
+
