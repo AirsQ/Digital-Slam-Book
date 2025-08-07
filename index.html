@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Slam Book</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <section id="home" class="active">
+      <h1>Welcome to Digital Slam Book</h1>
+      <p>Like a cherished notebook, this digital slam book lets you share memories, feelings, and moments with loved ones.</p>
+      <div class="buttons">
+        <button class="btn btn-primary" onclick="showPage('write')">Start Writing</button>
+        <button class="btn btn-outline" onclick="showPage('read')">Read Messages</button>
+      </div>
+      <br/>
+      <p id="storyCount" style="margin-top: 1rem; font-weight: bold;"></p>
+    </section>
+  
+    <section id="write">
+      <h2>Write a Message</h2>
+  
+      <label>Your Name</label>
+      <input id="author" placeholder="Your Name (Nickname)" maxlength="50"/>
+  
+      <label>Favourite Holiday Destination</label>
+      <input id="place" placeholder="e.g. Pondicherry" maxlength="30"/>
+  
+      <label>Favourite Colour</label>
+      <input id="colour" placeholder="e.g. Lavender" maxlength="20"/>
+  
+      <label>Favourite Food</label>
+      <input id="food" placeholder="e.g. Pizza" maxlength="30"/>
+  
+      <label>Favourite Movie / Series</label>
+      <input id="movie" placeholder="e.g. Stranger Things" maxlength="40"/>
+  
+      <label>One best memory of us</label>
+      <textarea id="word" placeholder="e.g. That time we got caught laughing in class and still couldn’t stop – best moment ever!" rows="2" maxlength="120"></textarea>
+      
+      <label>A Secret You Can Share</label>
+      <textarea id="secret" placeholder="Shhh... tell a tiny secret!" rows="2" maxlength="120"></textarea>
+  
+      <label>Your Message</label>
+      <textarea id="message" placeholder="Write your heartfelt message here..." rows="4" maxlength="500"></textarea>
+  
+      <button class="btn btn-primary" onclick="submitMessage()">Add to Our Story</button>
+    </section>
+  
+    <section id="read">
+      <h2>Shared Stories</h2>
+      <div id="messagesList"></div>
+    </section>
+  
+    <section id="about">
+      <h1>About</h1>
+      <p>This digital slam book lets you share thoughts, memories, and fun answers with friends — just like the old-school slam books.</p>
+      <p>Write your message, read what others shared, and keep the memories alive — all in one simple, browser-based space.</p>
+      <p>Messages are stored only in your browser for privacy and won’t be visible to others.</p>
+      <p><strong>No sign-ups. Just you and your words.</strong></p>
+    </section>
+  </div>
+  
+  <nav class="nav">
+    <button id="nav-home" class="active" onclick="showPage('home')">Home</button>
+    <button id="nav-write" onclick="showPage('write')">Write</button>
+    <button id="nav-read" onclick="showPage('read')">Read</button>
+    <button id="nav-about" onclick="showPage('about')">About</button>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
